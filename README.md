@@ -9,5 +9,5 @@
  - Configure JUnit 4 in project path and excute all test cases. 
  
  ### Other ###
- - Given more time i would have modelled the response from the transaction endpoint and updated the status of book purchased. 
+ - Given more time I would have modelled the response from the transaction endpoint and updated the status of book purchased. 
  
