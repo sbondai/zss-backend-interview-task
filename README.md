@@ -10,14 +10,17 @@
  - Configure JUnit 4 in project path and excute all test cases. 
 
   ### End points ###
- -  #### Book ####
-     - POST *api/v1/books*  - Create book
+ -  #### Book - create a category first ####
+     - POST *api/v1/books*  - Create book -  Required fields : "title","description","price","bookCategory"
      - GET  *api/v1/books*  - Get all books
    
  -  #### Category ####
-     - POST */api/v1/categories*  - Create Category
+     - POST */api/v1/categories*  - Create Category -  Required fields : "categoryTitle"
      - GET  */api/v1/categories/{category}*  - Get books from specific category
 
+ -  #### Purchase book using API  ####
+     - POST */api/v1/books/transact*  - Create Category - Required fields : "cardNumber", "expiryDate", "bookTitle"
+     
  
  ### Other ###
  - Given more time I would have modelled the response from the transaction endpoint and updated the status of book purchased. 
